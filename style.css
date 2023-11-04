@@ -96,6 +96,23 @@ section {
     color: rgb(4, 247, 4);
 }
 
+.button {
+    padding: 0.8rem 1.6rem;
+    border-radius: 1rem;
+    border: none;
+    color:#333;
+    margin-right: 0.8rem;
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.button:hover{
+    background-color: #1c3344;
+    color: white;
+    cursor: pointer;
+    animation: colorChange 1s infinite alternate;
+}
 
 footer {
     margin-top: 40px;
